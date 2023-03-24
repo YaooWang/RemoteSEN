@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LearningDiary - 2&nbsp; Policy</title>
+<title>LearningDiary - 6&nbsp; Google Earth Engine</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./summary.html" rel="next">
-<link href="./Getting started with remote sensing.html" rel="prev">
+<link href="./Classification1.html" rel="next">
+<link href="./Policy.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Policy</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Google Earth Engine</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -100,17 +100,47 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Getting started with remote sensing.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Policy</span></a>
+  <a href="./Summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Policy</span></a>
+  <a href="./Getting started with remote sensing.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Getting Started with Remote Sensing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></a>
+  <a href="./Portfolio.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Portfolio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Corrections.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Corrections</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Policy.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Policy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./GoogleEarthEngine.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Google Earth Engine</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Classification1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">ClassificationⅠ</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Classification2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">ClassificationⅡ</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Temperature.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Temperature and policy</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -127,10 +157,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary-of-the-policy-and-city-selected" id="toc-summary-of-the-policy-and-city-selected" class="nav-link active" data-scroll-target="#summary-of-the-policy-and-city-selected"><span class="toc-section-number">2.1</span>  Summary of the policy and city selected</a></li>
-  <li><a href="#remotely-sensed-data-contribute-to-the-policy-goal" id="toc-remotely-sensed-data-contribute-to-the-policy-goal" class="nav-link" data-scroll-target="#remotely-sensed-data-contribute-to-the-policy-goal"><span class="toc-section-number">2.2</span>  Remotely sensed data (contribute to the policy goal)</a></li>
-  <li><a href="#how-this-links-to-global-agendasgoals" id="toc-how-this-links-to-global-agendasgoals" class="nav-link" data-scroll-target="#how-this-links-to-global-agendasgoals"><span class="toc-section-number">2.3</span>  How this links to global agendas/goals</a></li>
-  <li><a href="#how-it-advances-current-local-national-or-global-approaches" id="toc-how-it-advances-current-local-national-or-global-approaches" class="nav-link" data-scroll-target="#how-it-advances-current-local-national-or-global-approaches"><span class="toc-section-number">2.4</span>  How it advances current local, national or global approaches</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">6.1</span>  Summary</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="toc-section-number">6.2</span>  Application</a></li>
+  <li><a href="#personal-reflection" id="toc-personal-reflection" class="nav-link" data-scroll-target="#personal-reflection"><span class="toc-section-number">6.3</span>  Personal reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -139,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Policy</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Google Earth Engine</span></h1>
 </div>
 
 
@@ -154,24 +183,25 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="summary-of-the-policy-and-city-selected" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="summary-of-the-policy-and-city-selected"><span class="header-section-number">2.1</span> Summary of the policy and city selected</h2>
-<p>The city I seleced is Ahmedabad(Gujarat, India). And the related policy is South Asia’s First Heat-health Action Plan<span class="citation" data-cites="kimKnowlton">(<a href="references.html#ref-kimKnowlton" role="doc-biblioref"><strong>kimKnowlton?</strong></a>)</span>. It is well known and documented that urbanisation can have significant effects on local weather and climate. Of these effects one of the most familiar is the urban heat island, for which the temperatures of the central urban locations are several degrees higher than those of nearby rural areas of simialr elevation. As a rapidly growing city in South Asia, it would be worsen in a warming city.</p>
-<p>As one of the hottest city in India. The city of Ahmedabad is in the largest district in the western Indian state of Gujarat. With a population of 7.2 million and rapid growth in the real estate, automotive, and pharmaceutical sectors, Ahmedabad is among the top ten fastest growing cities in India, and is poised to become one of India’s leading metropolises by 2020.</p>
-<p>At the time of the 2010 heat wave, the population of Ahmedabad was no better protected than those of other major South Asian cities. HAPs are comprehensive extreme heat early warning systems and prepardness plans. They typically include a range of mitigation and adaptation measures aimed at reducing health impacts in both the short and longer term. Their goal is to improve public awareness, expedite community outreach, facilitate coordincation across sectors, support capacity building for health care professionals, promote adaptation efforts, and reduce heat exposure, illness, and death.</p>
+<section id="summary" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">6.1</span> Summary</h2>
+<p>In this week we learned about the Google Earth Engine, including its set up, basic functions and how to use it to process remote sensing data. The GEE platform combines the powerful computing power provided by Google servers with a large range of cloud computing resources. The platform dataset provides a large and complete set of imagery from Earth observation satellites such as Sentinel, MODIS, Landsat, etc., as well as vegetation, surface temperature and socio-economic datasets. GEE provides both Python and JavaScript versions of the editing interface for rapid, interactive algorithm development using a web-based code editor. It has the very outstanding advantage of having a huge amount of data that can be called up online and a wide range of data sources, without the need to search and download according to different data from different internet sources. What’s more, it does not need to occupy the memory of one’s own computer and enables online cloud computing.</p>
+<p><img src="07.jpg" class="img-fluid" width="500"></p>
 </section>
-<section id="remotely-sensed-data-contribute-to-the-policy-goal" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="remotely-sensed-data-contribute-to-the-policy-goal"><span class="header-section-number">2.2</span> Remotely sensed data (contribute to the policy goal)</h2>
-<p>Several temperature maps for the city of Ahmedabad will be obtained for the period of 2009-2012 from AVHRR level 1b High Resolution Picture Transmission(HRPT) data.</p>
-<p>Land use and land cover data of 2009-2012 for Ahmedabad</p>
+<section id="application" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="application"><span class="header-section-number">6.2</span> Application</h2>
+<p>Google Earth Engine provides a variety of capabilities to perform spatial and spectral operations on a single image or a batch of images. These operations have great potential to be implemented in parallel on a cloud architecture, as shown in the figure below (Amani et al., 2020). .</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="08.jpg" class="img-fluid figure-img" width="500"></p>
+<p></p><figcaption class="figure-caption">Source: Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review</figcaption><p></p>
+</figure>
+</div>
+<p>In recent years, GEE has been used in geomorphology, ecology, atmospheric studies, geology, natural hazards, scientific research and other fields (Yang et al., 2019)，It is an important tool for studying global environmental change. In a study of the Chengdu-Chongqing region of China, GEE and machine learning were used to extract impermeable urban surfaces. This article constructs classification features for spectral bands, spectral indices and texture indices based on the GEE cloud platform and Landsat8 imagery, using five machine learning algorithms: minimum distance (MD), categorical regression tree (CART), support vector machine (SVM), random forest (RF) and simple Bayesian (NB) ，extract of impermeable surface information. The results show that the RF algorithm works best and the extraction results are the most consistent with reality, with little difference in accuracy between the CART and SVM algorithms.</p>
 </section>
-<section id="how-this-links-to-global-agendasgoals" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="how-this-links-to-global-agendasgoals"><span class="header-section-number">2.3</span> How this links to global agendas/goals</h2>
-<p>We can use these data to determine the urban-rual temperature differnces. And complete urban heat island in magnitude and spatial extent. By overlapping the temperature data with urban death data or economic data. We can also explore the relationship between these factors.</p>
-</section>
-<section id="how-it-advances-current-local-national-or-global-approaches" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="how-it-advances-current-local-national-or-global-approaches"><span class="header-section-number">2.4</span> How it advances current local, national or global approaches</h2>
-<p>The data from the needs assessment activities helped in confirming findings from the theoretical conceptual model. The information from these activities, in turn, focused the HAP on specific, actionable, and high-priority action items. Additionally, the needs assessment helped the group clarify its highest research priorities and identify burdensome health concerns that have not been adequately studied in the area.</p>
+<section id="personal-reflection" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="personal-reflection"><span class="header-section-number">6.3</span> Personal reflection</h2>
+<p>During this week I have learnt about the power of GEE and its advantages in visualising remotely sensed data, easy access to a wide range of geographical data and a unified coordinate system. And the platform offers the ability to share code between scripts, allowing us to save a lot of time when using it. Compared to traditional imaging tools such as ENVI, Google Earth Engine allows for fast, batch processing of quantitative images. It allows rapid calculation of vegetation indices such as NDVI, for example, and can predict crop-related yields, monitor changes in drought growth, detect global forest changes and much more.</p>
 
 
 </section>
@@ -312,13 +342,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Getting started with remote sensing.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Policy</span></span>
+      <a href="./Policy.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Policy</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./summary.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Classification1.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">ClassificationⅠ</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
